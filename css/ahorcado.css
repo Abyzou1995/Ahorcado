@@ -1,0 +1,121 @@
+h1{/*TITULO */
+    height: 50px;
+    width: 350px;
+    text-align:center;
+    background-color: black;
+    position: absolute;
+    color: white;
+    left: 150px;
+    top: -10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{/*CUERPO*/  
+    height: 223px;
+    width: 182px;
+    background-image: url("./fondo.jpg")
+}
+#ahorcado{/*IMAGEN AHORCADO*/
+    height: 300px;
+    width: 200px; 
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+}
+#notificacion{/*GIF DE ACIERTO O NO_ABEJA QOO*/
+    height: 223px;
+    width: 182px;
+    
+    position: relative;
+    left: 250px;
+    bottom: 380px;
+}
+#noti{/*SONIDOS DE ACIERTO O NO*/
+    height: 100px;
+    width: 182px;
+    background-color:green;
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+}
+#salida{/*PANEL DE MUESTRA DE GUIONES*/
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    width: 400px;
+    font-size: 50px;    
+    background-color: aqua;
+    position:relative;
+    left: 150px;
+    bottom: 50px;
+    text-align:center
+}
+#categ{/*CATEGORIAS*/
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    background-color:none;
+    position: relative;
+    left:100px;
+    top: 56px;
+    color: yellowgreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#dificul{/*DIFICULTAD*/
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    background-color: none;
+    position: relative;
+    left:400px;
+    color: yellowgreen;  
+    top: -15px;
+}
+#completado{/*PANEL DE INGRESO DE PALABRA*/
+    height: 50px;
+    width: 260px;
+    background-color: none;
+    position: relative;
+    left:350px;
+    font-size: 20px;
+    bottom: 50px;
+    color: yellowgreen;
+    
+}
+#unaletra{/*PANEL DE INGRESO DE LETRA*/
+    height: 50px;
+    width: 250px;
+    background-color: none;
+    position: relative;
+    left:50px;
+    font-size: 20px;
+    top: 20px;
+    color: yellowgreen;
+    text-align:center
+}
+#iniciar{/*BOTON INICIO*/
+    height: 30px;
+    width: 120px;
+    background-color: blue;
+    position: relative;
+    color:white;
+    top: 20px;
+    left: 250px;
+}
+#dificultades{/*LISTA DE DIFICULTADES*/
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
+    background-color: blue;
+    position: relative;
+    color:white;
+    bottom: 10px;
+}
+#categorias{/*LISTA DE DE CATEGORIAS*/
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
+    background-color: blue;
+    position: relative; 
+    bottom: 10px;  
+    color:white;
+}

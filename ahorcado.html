@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title><!-- Encabezado -->
+    <link rel="stylesheet" href="./css/ahorcado.css"><!-- Cargar hoja de estilos css -->
+</head>
+<body>
+    <h1>JUEGO AHORCADO</h1><!-- Titulo -->
+    <div id="categ"><!-- Lista desplegable de categorias -->
+        <p>Elija la categoria</p>
+        <form name="category"  >
+            <select name="categoria" id="categorias">
+             <option value="0" >Categorias</option>
+             <option value="paises" >paises</option>
+             <option value="ropa" >ropa</option>
+             <option value="orange" >animales</option>
+            </select>
+        </form>
+    </div>
+    <div id="dificul"><!-- Lista desplegable de dificultades -->
+        <p>Elija la dificultad</p>
+        <form name="dificulty" >
+            <select name="dificultad" id="dificultades">
+             <option value="0" >Dificultad</option>
+             <option value="basico" >basico</option>
+             <option value="intermedio" >intermedio</option>
+             <option value="dificil" >dificil</option>
+            </select>
+        </form> 
+    </div>
+    <div><!-- Boton de iniciar juego -->
+        <button id="iniciar" type="submit">Iniciar</button>
+    </div>
+    <div id="unaletra"><!-- Boton de ingresar letra -->
+        <p>Ingrese una letra</p>
+        <input type="text" maxlength="1" id="letra"><button id="verifica" type="submit">Verificar</button>
+    </div> 
+    <div id="completado">  <!-- Boton de ingresar palabra -->
+        <p>Si esta listo, Ingrese la palabra</p>
+        <input type="text" id="completo" ><button id="verifica1" type="submit">Comprobar</button>
+    </div> 
+    <div><!-- Espacio para mostrar palabra con guiones -->
+        <p id="salida"> </p>
+    </div>
+    <div><!-- Espacio para mostrar imagen de ahorcado -->
+        <embed id="ahorcado" src=".png" alt="ahorcar" />
+    </div> 
+    <div><!-- Espacio para mostrar gifs de avanze -->
+        <embed id="notificacion" src=".gif" />
+    </div> 
+    <div><!-- Espacio para reproducir los sonidos -->
+        <embed id="noti" autostart="" src="css/s_correcto1.mp3"  >
+    </div> 
+    <script src="js/ahorcado.js"></script><!-- Cargar el script de js -->
+</body>
+</html>
